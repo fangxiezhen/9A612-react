@@ -2,10 +2,16 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: '9A612-react',
-  favicon:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+  favicon: 'https://i.postimg.cc/k590KkhS/612.png',
+  logo: 'https://i.postimg.cc/k590KkhS/612.png',
   outputPath: 'docs-dist',
   mode: 'site',
-  // more config: https://d.umijs.org/config
+  navs: [
+    null,
+    {
+      title: 'tdesign 组件库',
+      path: 'https://tdesign.tencent.com/react/components/button',
+    },
+  ],
+  styles: [`https://unpkg.com/tdesign-react/dist/tdesign.min.css`],
 });

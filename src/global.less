@@ -1,0 +1,28 @@
+.__dumi-default-menu-list > li {
+  li {
+    margin: 4px 0;
+    span {
+      padding-left: 5px;
+      &:hover {
+        background-color: #f3f3f3;
+      }
+    }
+
+    .active {
+      span {
+        background-color: #e6f7ff;
+      }
+    }
+  }
+}
+
+.__dumi-default-menu[data-mode='site'] .__dumi-default-menu-list > li > a {
+  margin: 16px;
+  padding-left: 12px;
+  color: #00000073;
+  font-size: 14px;
+}
+
+.__dumi-default-menu[data-mode='site'] .__dumi-default-menu-list > li > a ~ ul {
+  margin-left: 18px;
+}
