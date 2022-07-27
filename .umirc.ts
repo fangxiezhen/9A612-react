@@ -14,4 +14,9 @@ export default defineConfig({
     },
   ],
   styles: [`https://unpkg.com/tdesign-react/dist/tdesign.min.css`],
+  history: {
+    type: 'hash',
+  },
+  base: '/9A612-react',
+  publicPath: './',
 });
