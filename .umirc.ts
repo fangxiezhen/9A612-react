@@ -19,4 +19,5 @@ export default defineConfig({
   },
   base: '/9A612-react',
   publicPath: './',
+  mfsu: {},
 });

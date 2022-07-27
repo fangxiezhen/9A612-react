@@ -7,7 +7,6 @@ group:
   title: 数据展示
 ---
 
-
 ## Card
 
 Demo:
@@ -73,3 +72,5 @@ export default () => {
   return <UserCards userConfig={userConfig} />;
 };
 ```
+
+<API src='./index.tsx'></API>
