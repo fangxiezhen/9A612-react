@@ -14,7 +14,7 @@ features:
     desc: 芜湖起飞
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
     title: 为组件开发而生
-    desc: 会为你省下一些摸鱼时间
+    desc: 会为你省下一些摸鱼时间,斯巴拉西
 footer: 9A612之父为儿子们亲情打造<br />Powered by [fangxiezhen](https://github.com/fangxiezhen/9A612-react)
 ---
 
