@@ -1,15 +1,16 @@
-import React, { memo } from 'react';
-import './style/index.less';
 import cx from 'classnames';
-import type { LoadingProps } from './type';
+import React, { memo } from 'react';
 import { Loading as TLoading } from 'tdesign-react';
 
+import './style/index.less';
+import type { LoadingProps } from './type';
+
 const DefaultIndicator = () => (
-  <div className={cx('loading')}>
-    <div className="loadingLoader">
-      <span className="loadingLine" />
-      <span className="loadingLine" />
-      <span className="loadingLine" />
+  <div className={cx('sot-loading')}>
+    <div className="sot-loading-loader">
+      <span className="sot-loading-line" />
+      <span className="sot-loading-line" />
+      <span className="sot-loading-line" />
     </div>
   </div>
 );

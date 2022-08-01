@@ -1,0 +1,80 @@
+.sot-selectList {
+  display: flex;
+  align-items: center;
+  height: 350px;
+  &__item {
+    position: relative;
+    height: 100%;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+
+    &__selectAll {
+      width: 45px;
+      margin-left: 15px;
+      text-align: center;
+    }
+
+    &__header {
+      display: flex;
+      padding: 12px;
+      font-weight: bold;
+      line-height: 34px;
+    }
+
+    &__clear-disabled {
+      color: #c0c3cc;
+      &:hover {
+        color: #c0c3cc;
+      }
+    }
+
+    &__title {
+      margin-right: 20px;
+    }
+
+    &__body {
+      height: 250px;
+      overflow-y: auto;
+    }
+
+    &__li:hover {
+      background-color: #f6f6f6;
+    }
+
+    &__label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 28px;
+      padding: 0 12px;
+      &-selected {
+        background-color: #ecf2fe;
+      }
+    }
+
+    &__name {
+      max-width: calc(100% - 16px);
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    &__loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%);
+    }
+
+    &__delete {
+      color: #777;
+    }
+
+    &__ul {
+      margin-top: 8px;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
