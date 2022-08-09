@@ -23,3 +23,10 @@ export type CommonValue = string | number;
  * @description 常规对象的类型
  */
 export type CommonObject = Record<CommonValue, unknown>;
+
+/**
+ * @description 合并两个类型
+ */
+export type Merge<T extends object, U extends object> = {
+  [P in keyof (T & U)]: P extends keyof U ? U[P] : P extends keyof T ? T[P] : never;
+};

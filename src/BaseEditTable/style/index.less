@@ -1,0 +1,71 @@
+.sot-baseEditTable {
+  &__table {
+    .t-table__empty {
+      height: 36px;
+    }
+
+    .t-table__empty-row {
+      border-bottom: 1px solid #dcdcdc;
+    }
+
+    .t-table__header {
+      tr {
+        background-color: #f8f9f9;
+      }
+    }
+
+    .t-table__th-cell-inner {
+      color: #888;
+      font-weight: 600;
+    }
+  }
+
+  &__add {
+    margin-top: 16px;
+    background-color: #f9f9f9;
+    border-radius: 4px !important;
+
+    &:hover {
+      color: #6245ef;
+      border-color: #6245ef;
+    }
+  }
+
+  &__disabled {
+    cursor: not-allowed;
+    svg {
+      color: rgba(0, 0, 0, 0.26);
+    }
+    &:hover {
+      color: rgba(0, 0, 0, 0.26);
+      background-color: #eee !important;
+      border-color: #eee;
+    }
+  }
+
+  &__errorTip {
+    height: auto;
+    min-height: 20px;
+    color: #e34d59;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  &__selectError {
+    .t-input {
+      border-color: #e34d59;
+    }
+  }
+
+  &__deleteDisabled {
+    color: #b2b2b2;
+    cursor: not-allowed;
+    &:hover {
+      color: #b2b2b2;
+    }
+  }
+
+  &__require {
+    color: #e02020;
+  }
+}

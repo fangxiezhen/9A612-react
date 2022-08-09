@@ -1,5 +1,5 @@
 import cx from 'classnames';
-import React, { memo, useEffect, useState } from 'react';
+import React, { memo } from 'react';
 import { CaretRightIcon } from 'tdesign-icons-react';
 
 import SelectListItem from './SelectListItem';
