@@ -1,0 +1,22 @@
+@import url(../../global.less);
+
+.sot-ellipsisWithTooltip {
+  &-hideChild {
+    width: auto !important;
+    max-width: auto !important;
+    white-space: nowrap;
+  }
+
+  &-none {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  &__content {
+    .textEllipsis();
+  }
+
+  &__pointer {
+    cursor: pointer;
+  }
+}

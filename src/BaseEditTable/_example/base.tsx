@@ -8,7 +8,7 @@ const BaseSelectList = () => {
   const [value, setValue] = useState<any[]>([]);
   const tableRef = useRef<BaseEditTableInstance>(null);
 
-  const columns: ColumnsType<any> = [
+  const columns: ColumnsType<any>[] = [
     {
       colKey: 'name',
       title: '提交项名称',

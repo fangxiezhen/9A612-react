@@ -17,4 +17,4 @@ group:
 
 <code src="./_example/base.tsx" />
 
-<API src='./'></API>
+<API src='./api.tsx' ></API>

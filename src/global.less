@@ -28,3 +28,12 @@
 .__dumi-default-menu[data-mode='site'] .__dumi-default-menu-list > li > a ~ ul {
   margin-left: 18px;
 }
+
+// 省略
+.textEllipsis(@lineCount: 1) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: @lineCount;
+  -webkit-box-orient: vertical;
+}

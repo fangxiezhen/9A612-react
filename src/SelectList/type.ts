@@ -36,7 +36,7 @@ export const enum ChangeType {
  */
 export interface SelectListProps<T extends CommonObject = SelectListValue> extends StyledProps {
   /**
-   * @description 穿梭框左侧数据源
+   * @description 穿梭框左侧数据源 SelectListValue：{value:string|number,label:string|number,disabled?:boolean}[]
    * @default []
    */
   dataSource: T[];
